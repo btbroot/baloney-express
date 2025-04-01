@@ -1,0 +1,27 @@
+---
+---
+
+@import "minima";
+
+/** Background **/
+body {
+    background-image: url('images/pexels-ekaterinabelinskaya-4922615.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  }
+
+/** Overlay for the background image */
+.page-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    color: white;
+}
+.site-footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    color: white;
+}
+
+/** Links */
+a { color: #7fb7ff; text-decoration: none; }
+a:visited { color: #cce1fd; }
+a:hover { color: #fdb3b3; text-decoration: underline; }
